@@ -86,19 +86,21 @@ def check_changes(api_data, previous_data):
 
 def format_email(changes):
     """
-    Formats the email to be sent. 
+    Formats the email to be sent in a tabular format.
     """
-    if changes == []:
-        return f"Nothing to report, no changes were made to the pricing fields.\n\n"
-    else:
-        email_body = "The following changes were made to the pricing fields: \n\n"
-        for change in changes:
-            if(change['isAbsolute'] == True):
-                email_body += f"Product: {change['product']}, changed from relative to absolute pricing.\n"
-            elif(change['isAbsolute'] == False):
-                email_body += f"Product: {change['product']}, changed from absolute to relative pricing.\n"
+    if not changes:
+        return "Nothing to report, no changes were made to the pricing fields.\n\n"
+    
+    # Header for the table
+    email_body = "The following changes were made to the pricing fields:\n\n"
+    email_body += f"{'Product':<20}{'Old Pricing':<15}{'New Pricing':<15}\n"
+    email_body += "-" * 50 + "\n"
 
-
+    # Add rows for each change
+    for change in changes:
+        old_pricing = "Relative" if change['isAbsolute'] else "Absolute"
+        new_pricing = "Absolute" if change['isAbsolute'] else "Relative"
+        email_body += f"{change['product']:<20}{old_pricing:<15}{new_pricing:<15}\n"
 
     return email_body
 
@@ -111,7 +113,7 @@ def send_email(sender, receivers, password, body):
 
     message =f"""From: {sender}
 To: {receivers}
-Subject: Test Email {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}
+Subject: Changes as of {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}
 
 {body}
         """
@@ -141,9 +143,5 @@ Subject: Test Email {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}
 
 
 
-print(get_previous_data())
-print(get_api_data())
 change = check_changes(get_api_data(), get_previous_data())
-print(format_email(change))
-
 send_email(sender, receivers, password, format_email(change))
