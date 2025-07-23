@@ -1,0 +1,38 @@
+# .github/workflows/daily-email-manager.yml
+name: Daily Email Manager
+
+on:
+  schedule:
+    # Runs at 15:00 UTC, which is 11:00 AM EDT (UTC‑4)
+    - cron: '0 15 * * *'
+  workflow_dispatch:  # allows manual runs
+
+jobs:
+  run-email-manager:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Run EmailManager
+        run: python EmailManager.py
+        env:
+          SUPABASE_URL:      ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY:      ${{ secrets.SUPABASE_KEY }}
+          API_PRIVATE_TOKEN: ${{ secrets.API_PRIVATE_TOKEN }}
+          BASE_URL:          ${{ secrets.BASE_URL }}
+          EMAIL_SENDER:      ${{ secrets.EMAIL_SENDER }}
+          EMAIL_RECEIVERS:   ${{ secrets.EMAIL_RECEIVERS }}
+          EMAIL_PASSWORD:    ${{ secrets.EMAIL_PASSWORD }}
