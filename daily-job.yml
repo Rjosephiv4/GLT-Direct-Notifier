@@ -29,4 +29,10 @@ jobs:
       - name: Run EmailManager
         run: python EmailManager.py
         env:
-          
+          SUPABASE_URL:      ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY:      ${{ secrets.SUPABASE_KEY }}
+          API_PRIVATE_TOKEN: ${{ secrets.API_PRIVATE_TOKEN }}
+          BASE_URL:          ${{ secrets.BASE_URL }}
+          EMAIL_SENDER:      ${{ secrets.EMAIL_SENDER }}
+          EMAIL_RECEIVERS:   ${{ secrets.EMAIL_RECEIVERS }}
+          EMAIL_PASSWORD:    ${{ secrets.EMAIL_PASSWORD }}
