@@ -1,0 +1,357 @@
+[
+  {
+    "productName": "Any Year - 1oz American Gold Eagle",
+    "apiCode": "1EAGLE",
+    "matchScore": 1
+  },
+  {
+    "productName": "Modern Re-strikes 100 Corona",
+    "apiCode": "100C",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year - 1oz Canadian Gold Maple Leaf .9999",
+    "apiCode": "1MAP49",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1oz American Gold Buffalo",
+    "apiCode": "1GBU25",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year 1oz South African Gold Krugerrand",
+    "apiCode": "1KR",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year - 1oz Austrian Gold Philharmonic",
+    "apiCode": "1PHIL",
+    "matchScore": 1
+  },
+  {
+    "productName": "1oz American Gold Buffalo",
+    "apiCode": "1B",
+    "matchScore": 1
+  },
+  {
+    "productName": "2024 1/10oz American Gold Eagle",
+    "apiCode": ".1GE24",
+    "matchScore": 1
+  },
+  {
+    "productName": "1oz Valcambi Minted Gold Bar",
+    "apiCode": "1VALG",
+    "matchScore": 1
+  },
+  {
+    "productName": "1oz Royal Canadian Mint Gold Bar",
+    "apiCode": "10AGRCM",
+    "matchScore": 0.0,
+    "reason": "(can only find a Silver Bar that matches this)"
+  },
+  {
+    "productName": "Any Year Gold French 20 Franc",
+    "apiCode": "20FRANC",
+    "matchScore": 1
+  },
+  {
+    "productName": "Generic 1kg Gold Bar",
+    "apiCode": "1G",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year - 1oz Australian Perth Mint Nugget / Kangaroo",
+    "apiCode": "1NUGGET",
+    "matchScore": 0.5
+  },
+  {
+    "productName": "2025 1oz Canadian Gold Maple Leaf",
+    "apiCode": "1GML25",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year 1/2oz Canadian Gold Maple Leaf",
+    "apiCode": ".5MAPNP",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1/4oz Canadian Gold Maple Leaf",
+    "apiCode": ".25GML25",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year - 1/10oz American Gold Eagle",
+    "apiCode": ".1EAGLE",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year - 1/4oz American Gold Eagle",
+    "apiCode": ".25EAGLE",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year - 1/2oz American Gold Eagle",
+    "apiCode": ".5EAGLE",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year 1/4oz Kangaroo Gold Coin",
+    "apiCode": ".25KANG",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year 1/2oz Bullion Nugget / Kangaroo Coin",
+    "apiCode": ".5KANG",
+    "matchScore": 0.5
+  },
+  {
+    "productName": "Modern Re-strikes 20 Corona",
+    "apiCode": "20C",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year - 1/4oz Austrian Gold Philharmonic",
+    "apiCode": ".25PHIL",
+    "matchScore": 1
+  },
+  {
+    "productName": "Modern Re-strikes 4 Ducat",
+    "apiCode": "4DUC",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year - 1/2oz Austrian Gold Philharmonic",
+    "apiCode": ".5PHIL",
+    "matchScore": 1
+  },
+  {
+    "productName": "5g Valcambi Minted Gold Bar",
+    "apiCode": "5GRGBVA",
+    "matchScore": 0.1,
+    "reason": "ISSUE WITH UNCLEAR NAME OF THE ONE ON THE API"
+  },
+  {
+    "productName": "10g Valcambi Minted Gold Bar",
+    "apiCode": "10GRGBVA",
+    "matchScore": 0.1,
+    "reason": "ISSUE WITH UNCLEAR NAME OF THE ONE ON THE API"
+  },
+  {
+    "productName": "Generic 100g Gold Bar",
+    "apiCode": "100G",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1 oz American Gold Eagle",
+    "apiCode": "1GE25",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1/2oz American Gold Eagle",
+    "apiCode": ".5GE25",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1/10oz American Gold Eagle",
+    "apiCode": ".1GE25",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1/2oz Australian Perth Mint Gold Kangaroo",
+    "apiCode": "1GKA25",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1oz Australian Perth Mint Gold Kangaroo",
+    "apiCode": "1GKA25",
+    "matchScore": 0.9,
+    "reason": "Unclear if this is the correct item, as it doesn't specify the Perth Mint"
+
+  },
+  {
+    "productName": "2025 1oz South African Gold Krugerrand",
+    "apiCode": "1KR",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 2oz gold Australian Perth mint:Year of the Snake",
+    "apiCode": "2GPSN25",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1oz Australian Perth Mint Gold Lunar Series III: Year of the Snake",
+    "apiCode": "1GPSN25",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1/2oz Austrian Gold Philharmonic",
+    "apiCode": ".5GPH25",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1oz British Gold Britannia",
+    "apiCode": "1GBR25",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1/4oz Austrian Gold Philharmonic",
+    "apiCode": ".25GPH25",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1oz PAMP Gold Bar - Year of the Snake",
+    "apiCode": "1PAMPF",
+    "matchScore": 0.1
+  },
+  {
+    "productName": "2025 1/2oz British Gold Britannia",
+    "apiCode": ".5GBR25",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1oz Austrian Gold Philharmonic",
+    "apiCode": "1GPH25",
+    "matchScore": 1
+  },
+  {
+    "productName": "1oz Generic Silver Bar",
+    "apiCode": "1AGREC",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year 1oz Perth Mint Silver Red Kangaroo",
+    "apiCode": "1AGKANG",
+    "matchScore": 1
+  },
+  {
+    "productName": "10oz Generic Silver Bar",
+    "apiCode": "10AG",
+    "matchScore": 1
+  },
+  {
+    "productName": "10oz Royal Canadian Mint (RCM) Silver Bar",
+    "apiCode": "10AGRCM",
+    "matchScore": 1
+  },
+  {
+    "productName": "10oz Engelhard Silver Bar",
+    "apiCode": "10EH",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year - 1oz Austrian Silver Philharmonic",
+    "apiCode": "1AGPHIL",
+    "matchScore": 1
+  },
+  {
+    "productName": "1oz Generic Silver Round",
+    "apiCode": "1SRD",
+    "matchScore": 1
+  },
+  {
+    "productName": "10oz Johnson Matthey Silver Bar",
+    "apiCode": "10JM",
+    "matchScore": 1
+  },
+  {
+    "productName": "100oz Generic Silver Bar",
+    "apiCode": "100AG",
+    "matchScore": 1
+  },
+  {
+    "productName": "100oz Engelhard Silver Bar",
+    "apiCode": "100EH",
+    "matchScore": 1
+  },
+  {
+    "productName": "100oz Johnson Matthey Silver Bar",
+    "apiCode": "100JM",
+    "matchScore": 1
+  },
+  {
+    "productName": "100oz Royal Canadian Mint (RCM) Silver Bar",
+    "apiCode": "100RCM",
+    "matchScore": 1
+  },
+  {
+    "productName": "100oz Asahi Silver Bar",
+    "apiCode": "100SBAS",
+    "matchScore": 1
+  },
+  {
+    "productName": "US 90% Silver Coinage - Pre 1965 - Junk Silver",
+    "apiCode": "90M",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1oz Canadian Silver Maple Leaf",
+    "apiCode": "1SML25",
+    "matchScore": 1
+  },
+  {
+    "productName": "1/10oz Generic Silver Round",
+    "apiCode": ".1SRD",
+    "matchScore": 1
+  },
+  {
+    "productName": "1/2oz Generic Silver Round",
+    "apiCode": ".5SRD",
+    "matchScore": 1
+  },
+  {
+    "productName": "5oz Generic Silver Bar",
+    "apiCode": "5AG",
+    "matchScore": 1
+  },
+  {
+    "productName": "1kg Generic Silver Bar",
+    "apiCode": "1KILOAG",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1oz British Silver Britannia",
+    "apiCode": "1SBR25",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1 oz American Silver Eagle Coin",
+    "apiCode": "1SE25",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1oz Australian Perth Mint Silver Kangaroo",
+    "apiCode": "1SKA25",
+    "matchScore": 1
+  },
+  {
+    "productName": "2025 1oz Austrian Silver Philharmonic",
+    "apiCode": "1SPH25",
+    "matchScore": 1
+  },
+  {
+    "productName": "Monster Box - 1oz American Silver Eagle",
+    "apiCode": "1SEMSB",
+    "matchScore": 1
+  },
+  {
+    "productName": "Monster Box - 2025 1oz American Silver Eagle",
+    "apiCode": "1SE25MSB",
+    "matchScore": 1
+  },
+  {
+    "productName": "1 oz Aztec Calendar Silver Round",
+    "apiCode": "1SRDAZ",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year 1/4oz American Platinum Eagle",
+    "apiCode": ".25PE",
+    "matchScore": 1
+  },
+  {
+    "productName": "Any Year 1oz Austrian Platinum Philharmonic",
+    "apiCode": "1PTPH",
+    "matchScore": 1
+  }
+]
