@@ -1,0 +1,20 @@
+# .github/workflows/keep_alive.yml
+name: Keep Alive
+on:
+  schedule:
+    - cron: '0 0 */5 * *'  # Runs every 5 days at midnight
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Update timestamp
+        run: |
+          echo "Last run: $(date)" > .github/last_run.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github/last_run.txt
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update timestamp [skip ci]"
+          git push
